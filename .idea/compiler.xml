@@ -14,6 +14,8 @@
       <module name="omise-java-apt_test" target="1.8" />
       <module name="omise-java-omise-java_main" target="1.8" />
       <module name="omise-java-omise-java_test" target="1.8" />
+      <module name="omise-java_main" target="1.8" />
+      <module name="omise-java_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

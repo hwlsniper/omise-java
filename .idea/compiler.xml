@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="api_main" target="1.8" />
+      <module name="api_test" target="1.8" />
       <module name="apt_main" target="1.8" />
       <module name="apt_test" target="1.8" />
       <module name="core_main" target="1.8" />

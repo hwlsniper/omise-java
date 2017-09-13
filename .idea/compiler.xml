@@ -8,6 +8,8 @@
       <module name="apt_test" target="1.8" />
       <module name="core_main" target="1.8" />
       <module name="core_test" target="1.8" />
+      <module name="examples_main" target="1.8" />
+      <module name="examples_test" target="1.8" />
       <module name="omise-java-apt_main" target="1.8" />
       <module name="omise-java-apt_test" target="1.8" />
       <module name="omise-java-omise-java_main" target="1.8" />

@@ -3,7 +3,5 @@ apply plugin: 'application'
 mainClassName = 'co.omise.examples.Main'
 
 dependencies {
-    testCompile 'junit:junit:4.12'
     compile project(':api')
-    compile 'fr.inria.gforge.spoon:spoon-core:5.9.0'
 }

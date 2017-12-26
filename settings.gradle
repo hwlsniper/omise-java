@@ -1,6 +1,5 @@
 rootProject.name = 'omise-java'
 include 'core'
-include 'apt'
 include 'api'
 include 'examples'
 

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api.iml" group="api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_main.iml" group="api" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_test.iml" group="api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core.iml" group="core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc_main.iml" group="buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc_test.iml" group="buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_main.iml" group="core" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/core_test.iml" group="core" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples.iml" group="examples" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples/examples.iml" filepath="$PROJECT_DIR$/.idea/modules/examples/examples.iml" group="examples" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples/examples_main.iml" filepath="$PROJECT_DIR$/.idea/modules/examples/examples_main.iml" group="examples" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples/examples_test.iml" filepath="$PROJECT_DIR$/.idea/modules/examples/examples_test.iml" group="examples" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/omise-java.iml" filepath="$PROJECT_DIR$/.idea/modules/omise-java.iml" />

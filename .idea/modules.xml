@@ -15,8 +15,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples/examples_main.iml" filepath="$PROJECT_DIR$/.idea/modules/examples/examples_main.iml" group="examples" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/examples/examples_test.iml" filepath="$PROJECT_DIR$/.idea/modules/examples/examples_test.iml" group="examples" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/omise-java.iml" filepath="$PROJECT_DIR$/.idea/modules/omise-java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/omise-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/omise-java_main.iml" group="omise-java" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/omise-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/omise-java_test.iml" group="omise-java" />
     </modules>
   </component>
 </project>

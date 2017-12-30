@@ -6,4 +6,6 @@ repositories {
 
 dependencies {
     compile 'com.squareup:javapoet:1.9.0'
+    compile 'io.swagger:swagger-parser:2.0.0-rc1'
+    compile 'com.google.guava:guava:23.6-jre'
 }

@@ -1,8 +1,9 @@
-allprojects {
+subprojects {
     group 'co.omise'
     version '3.0-SNAPSHOT'
 
     apply plugin: 'java'
+    apply plugin: 'idea'
 
     sourceCompatibility = 1.8
 

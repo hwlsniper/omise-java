@@ -1,7 +1,34 @@
+import co.omise.generators.ModelGenerator
+
+import java.nio.file.Paths
+
 ext {
-    genDir = "gen/main/java/"
+    genDir = "src/main/gen/"
 }
+
+task('generateModels') {
+    def outputDir = Paths.get(project.projectDir.absolutePath, genDir)
+    new ModelGenerator().generate(outputDir.normalize())
+}
+
+compileJava.dependsOn(generateModels)
 
 dependencies {
     compile project(':core')
 }
+
+sourceSets {
+    main {
+        java {
+            srcDirs += genDir
+            println srcDirs
+        }
+    }
+}
+
+idea {
+    module {
+        generatedSourceDirs += file(genDir)
+    }
+}
+

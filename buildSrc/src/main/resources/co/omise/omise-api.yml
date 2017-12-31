@@ -1,0 +1,31 @@
+---
+openapi: "3.0.1"
+info:
+  title: Omise API
+  version: "1.0"
+paths:
+  "/":
+    get:
+      summary: "temp op"
+      responses:
+        200:
+          description: "OK"
+components:
+  schemas:
+    Account:
+      properties:
+        email:
+          type: string
+          format: email
+        currency:
+          type: string
+    Balance:
+      properties:
+        available:
+          type: integer
+          format: int64
+        total:
+          type: integer
+          format: int64
+        currency:
+          type: string

@@ -1,4 +1,5 @@
 import co.omise.generators.ModelGenerator
+import co.omise.generators.GeneratorException;
 
 import java.nio.file.Paths
 
@@ -7,8 +8,13 @@ ext {
 }
 
 task('generateModels') {
-    def outputDir = Paths.get(project.projectDir.absolutePath, genDir)
-    new ModelGenerator().generate(outputDir.normalize())
+    try {
+        def outputDir = Paths.get(project.projectDir.absolutePath, genDir)
+        new ModelGenerator().generate(outputDir.normalize())
+    } catch (GeneratorException e) {
+        e.printStackTrace()
+        throw e
+    }
 }
 
 compileJava.dependsOn(generateModels)

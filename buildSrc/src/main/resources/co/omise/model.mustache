@@ -1,0 +1,17 @@
+package co.omise.models;
+
+public class {{name}} extends co.omise.models.IdentifiableObject {
+{{#attributes}}
+    private {{javaType}} {{name}};
+{{/attributes}}
+{{#attributes}}
+
+    public {{javaType}} {{getterName}}() {
+        return this.{{name}};
+    }
+
+    public void {{setterName}}({{javaType}} newValue) {
+        this.{{name}} = newValue;
+    }
+{{/attributes}}
+}
